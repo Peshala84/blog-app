@@ -14,7 +14,7 @@ const BlogItem = ({ title, description, category, image, id }) => {
         <h5 className='mb-2 text-lg font-medium tracking-tight text-gray-900'>{title}</h5>
         <p className='mb-3 text-sm tracking-tight text-gray-700'>{description}</p>
         <Link href={`/blogs/${id}`} className='inline-flex items-center py-2 font-semibold text-center '>
-          Read more <Image src={assets.arrow} alt='' width={12} className='ml-2' />
+          Read More <Image src={assets.arrow} alt='' width={12} className='ml-2' />
         </Link>
       </div>
     </div>
