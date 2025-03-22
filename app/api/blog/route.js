@@ -35,7 +35,7 @@ export async function POST(request) {
         await BlogModel.create(blogData);
         console.log('Data saved');
 
-        return NextResponse.json({ success: true, msg: "Data saved" });
+        return NextResponse.json({ success: true, msg: "Data saved suecces" });
     } catch (error) {
         console.error("Error saving data:", error);
         return NextResponse.json({ success: false, msg: "Failed to save data", error: error.message });
